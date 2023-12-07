@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DUSE_SUNXIFB_CACHE -DUSE_SUNXIFB_DOUBLE_BUFFER -DUSE_SUNXIFB_G2D -DUSE_SUNXIFB_G2D_ROTATE -D_BSD_SOURCE
 
-C_INCLUDES = -I/home/aa/auzoa/au10-work -I/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/include -I/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/include/freetype2 -I/home/aa/auzoa/au10-work/src -I/home/aa/auzoa/au10-work/mqtt 
+C_INCLUDES = -I/home/aa/auzoa/au10-miin -I/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/include -I/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/include/freetype2 -I/home/aa/auzoa/au10-miin/src -I/home/aa/auzoa/au10-miin/mqtt 
 

@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/aa/auzoa/au10-work/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/aa/auzoa/au10-miin/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/aa/auzoa/au10-work/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/aa/auzoa/au10-miin/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e77b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e77b.dir/build.make CMakeFiles/cmTC_8e77b.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_8e77b.dir/testCCompiler.c.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_8e77b.dir/testCCompiler.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_8e77b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e77b.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_8e77b.dir/testCCompiler.c.o  -o cmTC_8e77b 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_ca291/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca291.dir/build.make CMakeFiles/cmTC_ca291.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_ca291.dir/testCCompiler.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_ca291.dir/testCCompiler.c.o   -c /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ca291
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca291.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_ca291.dir/testCCompiler.c.o  -o cmTC_ca291 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e668a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e668a.dir/build.make CMakeFiles/cmTC_e668a.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e668a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e668a.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc     -v -rdynamic CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o  -o cmTC_e668a 
+Run Build Command:"/usr/bin/make" "cmTC_6fe73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6fe73.dir/build.make CMakeFiles/cmTC_6fe73.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6fe73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fe73.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc     -v -rdynamic CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o  -o cmTC_6fe73 
 Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
 COLLECT_GCC=arm-openwrt-linux-muslgnueabi-gcc.bin
 COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
 COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
 LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e668a' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
- /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFUOYzy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_e668a /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e668a' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6fe73' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5Jhk8U.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_6fe73 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6fe73' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e668a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e668a.dir/build.make CMakeFiles/cmTC_e668a.dir/build]
-  ignore line: [make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감]
-  ignore line: [Building C object CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e668a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e668a.dir/link.txt --verbose=1]
-  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc     -v -rdynamic CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o  -o cmTC_e668a ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6fe73/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6fe73.dir/build.make CMakeFiles/cmTC_6fe73.dir/build]
+  ignore line: [make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감]
+  ignore line: [Building C object CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6fe73]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fe73.dir/link.txt --verbose=1]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc     -v -rdynamic CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o  -o cmTC_6fe73 ]
   ignore line: [Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
   ignore line: [COLLECT_GCC=arm-openwrt-linux-muslgnueabi-gcc.bin]
   ignore line: [COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
   ignore line: [COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
   ignore line: [LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e668a' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu']
-  link line: [ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFUOYzy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_e668a /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6fe73' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu']
+  link line: [ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5Jhk8U.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_6fe73 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccFUOYzy.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5Jhk8U.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
@@ -104,7 +104,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e668a] ==> ignore
+    arg [cmTC_6fe73] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
     arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
     arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
-    arg [CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_6fe73.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lssp_nonshared] ==> lib [ssp_nonshared]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lc] ==> lib [c]
@@ -132,17 +132,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95969/fast"
-/usr/bin/make -f CMakeFiles/cmTC_95969.dir/build.make CMakeFiles/cmTC_95969.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_95969.dir/feature_tests.c.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c11 -o CMakeFiles/cmTC_95969.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_95969
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95969.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_95969.dir/feature_tests.c.o  -o cmTC_95969 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_6f200/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f200.dir/build.make CMakeFiles/cmTC_6f200.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_6f200.dir/feature_tests.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c11 -o CMakeFiles/cmTC_6f200.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-miin/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6f200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f200.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_6f200.dir/feature_tests.c.o  -o cmTC_6f200 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,17 +152,17 @@ make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나�
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02d40/fast"
-/usr/bin/make -f CMakeFiles/cmTC_02d40.dir/build.make CMakeFiles/cmTC_02d40.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_02d40.dir/feature_tests.c.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c99 -o CMakeFiles/cmTC_02d40.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_02d40
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02d40.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_02d40.dir/feature_tests.c.o  -o cmTC_02d40 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_715f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_715f7.dir/build.make CMakeFiles/cmTC_715f7.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_715f7.dir/feature_tests.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c99 -o CMakeFiles/cmTC_715f7.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-miin/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_715f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_715f7.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_715f7.dir/feature_tests.c.o  -o cmTC_715f7 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -172,17 +172,17 @@ make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나�
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d81e6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d81e6.dir/build.make CMakeFiles/cmTC_d81e6.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_d81e6.dir/feature_tests.c.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c90 -o CMakeFiles/cmTC_d81e6.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d81e6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d81e6.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_d81e6.dir/feature_tests.c.o  -o cmTC_d81e6 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_dfd78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfd78.dir/build.make CMakeFiles/cmTC_dfd78.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_dfd78.dir/feature_tests.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c90 -o CMakeFiles/cmTC_dfd78.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-miin/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dfd78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfd78.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_dfd78.dir/feature_tests.c.o  -o cmTC_dfd78 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -190,30 +190,30 @@ make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나�
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec952/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec952.dir/build.make CMakeFiles/cmTC_ec952.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_ec952.dir/testCXXCompiler.cxx.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_ec952.dir/testCXXCompiler.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ec952
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec952.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_ec952.dir/testCXXCompiler.cxx.o  -o cmTC_ec952 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_fec5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fec5c.dir/build.make CMakeFiles/cmTC_fec5c.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_fec5c.dir/testCXXCompiler.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_fec5c.dir/testCXXCompiler.cxx.o -c /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_fec5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fec5c.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_fec5c.dir/testCXXCompiler.cxx.o  -o cmTC_fec5c 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51df1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51df1.dir/build.make CMakeFiles/cmTC_51df1.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_51df1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51df1.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++      -v -rdynamic CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_51df1 
+Run Build Command:"/usr/bin/make" "cmTC_a28b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a28b0.dir/build.make CMakeFiles/cmTC_a28b0.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a28b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a28b0.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++      -v -rdynamic CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a28b0 
 Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
 COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin
 COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
@@ -223,24 +223,24 @@ Thread model: posix
 gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
 COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
 LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51df1' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
- /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMk8PAp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_51df1 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51df1' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a28b0' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc27glD4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_a28b0 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a28b0' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_51df1/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_51df1.dir/build.make CMakeFiles/cmTC_51df1.dir/build]
-  ignore line: [make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감]
-  ignore line: [Building CXX object CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_51df1]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51df1.dir/link.txt --verbose=1]
-  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++      -v -rdynamic CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_51df1 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a28b0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a28b0.dir/build.make CMakeFiles/cmTC_a28b0.dir/build]
+  ignore line: [make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a28b0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a28b0.dir/link.txt --verbose=1]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++      -v -rdynamic CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a28b0 ]
   ignore line: [Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
   ignore line: [COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin]
   ignore line: [COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
@@ -250,13 +250,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
   ignore line: [COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
   ignore line: [LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51df1' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu']
-  link line: [ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMk8PAp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_51df1 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a28b0' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu']
+  link line: [ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc27glD4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_a28b0 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccMk8PAp.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc27glD4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
@@ -268,7 +268,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_51df1] ==> ignore
+    arg [cmTC_a28b0] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
     arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
@@ -278,7 +278,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
     arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
     arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
-    arg [CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a28b0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lssp_nonshared] ==> lib [ssp_nonshared]
@@ -298,17 +298,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51e5f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51e5f.dir/build.make CMakeFiles/cmTC_51e5f.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_51e5f.dir/feature_tests.cxx.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++1z -o CMakeFiles/cmTC_51e5f.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_51e5f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51e5f.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_51e5f.dir/feature_tests.cxx.o  -o cmTC_51e5f 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_95287/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95287.dir/build.make CMakeFiles/cmTC_95287.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_95287.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++1z -o CMakeFiles/cmTC_95287.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-miin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_95287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95287.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_95287.dir/feature_tests.cxx.o  -o cmTC_95287 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -371,17 +371,17 @@ make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나�
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_03753/fast"
-/usr/bin/make -f CMakeFiles/cmTC_03753.dir/build.make CMakeFiles/cmTC_03753.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_03753.dir/feature_tests.cxx.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++14 -o CMakeFiles/cmTC_03753.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_03753
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03753.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_03753.dir/feature_tests.cxx.o  -o cmTC_03753 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_53d66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53d66.dir/build.make CMakeFiles/cmTC_53d66.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_53d66.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++14 -o CMakeFiles/cmTC_53d66.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-miin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_53d66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d66.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_53d66.dir/feature_tests.cxx.o  -o cmTC_53d66 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -444,17 +444,17 @@ make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나�
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83793/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83793.dir/build.make CMakeFiles/cmTC_83793.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_83793.dir/feature_tests.cxx.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++11 -o CMakeFiles/cmTC_83793.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_83793
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83793.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_83793.dir/feature_tests.cxx.o  -o cmTC_83793 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_65fca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65fca.dir/build.make CMakeFiles/cmTC_65fca.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_65fca.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++11 -o CMakeFiles/cmTC_65fca.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-miin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_65fca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65fca.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_65fca.dir/feature_tests.cxx.o  -o cmTC_65fca 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -517,17 +517,17 @@ make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나�
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fe8f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fe8f7.dir/build.make CMakeFiles/cmTC_fe8f7.dir/build
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_fe8f7.dir/feature_tests.cxx.o
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++98 -o CMakeFiles/cmTC_fe8f7.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fe8f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe8f7.dir/link.txt --verbose=1
-/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_fe8f7.dir/feature_tests.cxx.o  -o cmTC_fe8f7 
-make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_2fa66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fa66.dir/build.make CMakeFiles/cmTC_2fa66.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_2fa66.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++98 -o CMakeFiles/cmTC_2fa66.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-miin/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2fa66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fa66.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_2fa66.dir/feature_tests.cxx.o  -o cmTC_2fa66 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-miin/build/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

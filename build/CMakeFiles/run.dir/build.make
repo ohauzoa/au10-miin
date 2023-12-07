@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aa/auzoa/au10-work
+CMAKE_SOURCE_DIR = /home/aa/auzoa/au10-miin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aa/auzoa/au10-work/build
+CMAKE_BINARY_DIR = /home/aa/auzoa/au10-miin/build
 
 # Utility rule file for run.
 
@@ -71,6 +71,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd /home/aa/auzoa/au10-work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aa/auzoa/au10-work /home/aa/auzoa/au10-work /home/aa/auzoa/au10-work/build /home/aa/auzoa/au10-work/build /home/aa/auzoa/au10-work/build/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aa/auzoa/au10-miin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aa/auzoa/au10-miin /home/aa/auzoa/au10-miin /home/aa/auzoa/au10-miin/build /home/aa/auzoa/au10-miin/build /home/aa/auzoa/au10-miin/build/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run.dir/depend
 

@@ -1,0 +1,589 @@
+The system is: Linux - 5.4.0-150-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/aa/auzoa/au10-work/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/aa/auzoa/au10-work/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e77b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e77b.dir/build.make CMakeFiles/cmTC_8e77b.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_8e77b.dir/testCCompiler.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_8e77b.dir/testCCompiler.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8e77b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e77b.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_8e77b.dir/testCCompiler.c.o  -o cmTC_8e77b 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e668a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e668a.dir/build.make CMakeFiles/cmTC_e668a.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e668a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e668a.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc     -v -rdynamic CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o  -o cmTC_e668a 
+Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
+COLLECT_GCC=arm-openwrt-linux-muslgnueabi-gcc.bin
+COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /home/xuqiang/workspace/tina-old/out/v853-perf1/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/xuqiang/workspace/tina-old/out/host --with-mpfr=/home/xuqiang/workspace/tina-old/out/host --with-mpc=/home/xuqiang/workspace/tina-old/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-cpu=cortex-a7 --with-fpu=neon --with-float=hard --with-headers=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/xuqiang/workspace/tina-old/out/host
+Thread model: posix
+gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
+COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e668a' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFUOYzy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_e668a /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e668a' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e668a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e668a.dir/build.make CMakeFiles/cmTC_e668a.dir/build]
+  ignore line: [make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감]
+  ignore line: [Building C object CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc    -o CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e668a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e668a.dir/link.txt --verbose=1]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc     -v -rdynamic CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o  -o cmTC_e668a ]
+  ignore line: [Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
+  ignore line: [COLLECT_GCC=arm-openwrt-linux-muslgnueabi-gcc.bin]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /home/xuqiang/workspace/tina-old/out/v853-perf1/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/xuqiang/workspace/tina-old/out/host --with-mpfr=/home/xuqiang/workspace/tina-old/out/host --with-mpc=/home/xuqiang/workspace/tina-old/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-cpu=cortex-a7 --with-fpu=neon --with-float=hard --with-headers=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/xuqiang/workspace/tina-old/out/host]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
+  ignore line: [COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e668a' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu']
+  link line: [ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFUOYzy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_e668a /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFUOYzy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e668a] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
+    arg [-L:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib] ==> ignore
+    arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+    arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
+    arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [CMakeFiles/cmTC_e668a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> ignore
+  collapse library dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+  collapse library dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc]
+  collapse library dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [ssp_nonshared;gcc_s;c;gcc_s]
+  implicit dirs: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1;/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc;/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95969/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95969.dir/build.make CMakeFiles/cmTC_95969.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_95969.dir/feature_tests.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c11 -o CMakeFiles/cmTC_95969.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_95969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95969.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_95969.dir/feature_tests.c.o  -o cmTC_95969 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02d40/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02d40.dir/build.make CMakeFiles/cmTC_02d40.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_02d40.dir/feature_tests.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c99 -o CMakeFiles/cmTC_02d40.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_02d40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02d40.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_02d40.dir/feature_tests.c.o  -o cmTC_02d40 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d81e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d81e6.dir/build.make CMakeFiles/cmTC_d81e6.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_d81e6.dir/feature_tests.c.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc   -std=c90 -o CMakeFiles/cmTC_d81e6.dir/feature_tests.c.o   -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d81e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d81e6.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-gcc      -rdynamic CMakeFiles/cmTC_d81e6.dir/feature_tests.c.o  -o cmTC_d81e6 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec952/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec952.dir/build.make CMakeFiles/cmTC_ec952.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_ec952.dir/testCXXCompiler.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_ec952.dir/testCXXCompiler.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ec952
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec952.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_ec952.dir/testCXXCompiler.cxx.o  -o cmTC_ec952 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51df1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51df1.dir/build.make CMakeFiles/cmTC_51df1.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_51df1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51df1.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++      -v -rdynamic CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_51df1 
+Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
+COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin
+COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /home/xuqiang/workspace/tina-old/out/v853-perf1/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/xuqiang/workspace/tina-old/out/host --with-mpfr=/home/xuqiang/workspace/tina-old/out/host --with-mpc=/home/xuqiang/workspace/tina-old/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-cpu=cortex-a7 --with-fpu=neon --with-float=hard --with-headers=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/xuqiang/workspace/tina-old/out/host
+Thread model: posix
+gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
+COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51df1' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMk8PAp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_51df1 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51df1' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu'
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_51df1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_51df1.dir/build.make CMakeFiles/cmTC_51df1.dir/build]
+  ignore line: [make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감]
+  ignore line: [Building CXX object CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++     -o CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_51df1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51df1.dir/link.txt --verbose=1]
+  ignore line: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++      -v -rdynamic CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_51df1 ]
+  ignore line: [Reading specs from /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
+  ignore line: [COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /home/xuqiang/workspace/tina-old/out/v853-perf1/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/xuqiang/workspace/tina-old/out/host --with-mpfr=/home/xuqiang/workspace/tina-old/out/host --with-mpc=/home/xuqiang/workspace/tina-old/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-cpu=cortex-a7 --with-fpu=neon --with-float=hard --with-headers=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/xuqiang/workspace/tina-old/out/v853-perf1/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/xuqiang/workspace/tina-old/out/host]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
+  ignore line: [COMPILER_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51df1' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu']
+  link line: [ /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMk8PAp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_51df1 /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -rpath-link :/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMk8PAp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_51df1] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
+    arg [-L:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr:/home/aa/Tina-Linux/out/t113-au_10/staging_dir/target/usr/usr/lib] ==> ignore
+    arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+    arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
+    arg [-L/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [CMakeFiles/cmTC_51df1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o] ==> ignore
+    arg [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> ignore
+  collapse library dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+  collapse library dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc]
+  collapse library dir [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [stdc++;m;ssp_nonshared;gcc_s;c;gcc_s]
+  implicit dirs: [/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1;/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc;/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51e5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51e5f.dir/build.make CMakeFiles/cmTC_51e5f.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_51e5f.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++1z -o CMakeFiles/cmTC_51e5f.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_51e5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51e5f.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_51e5f.dir/feature_tests.cxx.o  -o cmTC_51e5f 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03753/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03753.dir/build.make CMakeFiles/cmTC_03753.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_03753.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++14 -o CMakeFiles/cmTC_03753.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_03753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03753.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_03753.dir/feature_tests.cxx.o  -o cmTC_03753 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83793/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83793.dir/build.make CMakeFiles/cmTC_83793.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_83793.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++11 -o CMakeFiles/cmTC_83793.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_83793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83793.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_83793.dir/feature_tests.cxx.o  -o cmTC_83793 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe8f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe8f7.dir/build.make CMakeFiles/cmTC_fe8f7.dir/build
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_fe8f7.dir/feature_tests.cxx.o
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++    -std=c++98 -o CMakeFiles/cmTC_fe8f7.dir/feature_tests.cxx.o -c /home/aa/auzoa/au10-work/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fe8f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe8f7.dir/link.txt --verbose=1
+/home/aa/Tina-Linux/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-g++       -rdynamic CMakeFiles/cmTC_fe8f7.dir/feature_tests.cxx.o  -o cmTC_fe8f7 
+make[1]: 디렉터리 '/home/aa/auzoa/au10-work/build/CMakeFiles/CMakeTmp' 나감
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

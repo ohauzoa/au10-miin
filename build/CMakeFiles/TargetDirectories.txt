@@ -1,0 +1,4 @@
+/home/aa/auzoa/au10-work/build/CMakeFiles/rebuild_cache.dir
+/home/aa/auzoa/au10-work/build/CMakeFiles/edit_cache.dir
+/home/aa/auzoa/au10-work/build/CMakeFiles/tt.dir
+/home/aa/auzoa/au10-work/build/CMakeFiles/run.dir
